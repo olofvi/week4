@@ -3,3 +3,15 @@
 
 - name: FizzBuzz
   description: My first Test driven ruby project
+
+- name: ATM
+  description: A ruby program that simulates an ATM, has three classes ATM, user and account class
+
+- name: Library
+  description: A ruby program that simulates a library with the use of a YAML file to hold the data of the library repository.
+
+- name: BMI calculator
+  description: A Javascript program that calculates BMI value from user input, metric and imperial calculation.
+
+- name: Spice it up!
+  description: A web based ruby application for a faux restaurant. You can login as a user or a owner, order food and choose between delivery or take-away.
