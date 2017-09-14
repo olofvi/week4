@@ -1,0 +1,24 @@
+- education: Coding bootcamp
+  institution: Craft Academy
+  description: Studying various coding languages focusing on Ruby, Javascript, CSS, JQuery and version control with Github.
+  period: 2017/08/17 - 2017/11/10
+  final_project: not finished
+  topic: not finished
+  grade: N/A
+
+
+- education: Master of Arts in Museum Studies
+  institution: University of Iceland
+  description: Museum studies touches all areas of heritage, and how the museums developed into their institutional role in education through social and political forces.
+  period: 2012/01/01- 2015/09/01
+  final_project: Manufacturing consent. Analysis on work done in museums around Iceland using Herman & Chomsky propaganda model
+  topic: In this paper, the work done in museums around Iceland is analyzed by using Herman and Chomsky’s propaganda model. Theories about the power museums take over history and the truth are documented. When the independence of the museum is looked at, it turns out it isn’t all that much after all. When the work in museums is analyzed using the propaganda model it can clearly be seen that powerful stakeholders largely control the work that is done in museums in Iceland.
+  grade: 8
+
+- education: Bachelor of Arts in History
+  institution: University of Iceland
+  description: Undergraduate studies in history focusing on the history of Iceland, and theories in history
+  period: 2008/09/01 - 2011/09/01
+  final_project: Hotel Reykjavik and the great fire in Reykjavik 1915
+  topic: The thesis analyzes fire safety in Reykjavik in the beginning of the 20th century and what were the public views on fire safety, is it necessary or to expensive? The discourse in public debate is analyzed and looked at how the discourse changed after that tragic event
+  grade: 8
