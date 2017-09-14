@@ -1,22 +1,29 @@
 .container
   %h1 Ólöf's portfolio
   %h2 About me
-  %h3 I'm 28 years old woman from Iceland with interest in culture, heritage and arts.
-  But also interested in tech and data. After university I started working in telecommunication and that aspired me to go and learn coding.
-  So I moved to Gothenburg Sweden and started my coding journey with Craft Academy.
+  %h3 I'm 28 years old woman from Iceland with interest in culture, heritage and arts. But also interested in tech and data. After university I started working in telecommunication and that aspired me to go and learn coding. So I moved to Gothenburg Sweden and started my coding journey with Craft Academy.
 
-  .projects.block
+
+#Projects.block
+  %h2 Coding projects by me
+  .projects
     - data.projects.each do |project|
       %h4= project[:name]
       %p= project[:description]
 
-  .works.block
+
+#Works.block
+  %h2 My work experience
+  .works
     - data.works.each do |work|
       %h4= work[:job_title]
       %p= work[:description]
       %p= work[:period]
 
-  .education.block
+
+#Education.block
+  %h2 My education
+  .education
     - data.education.each do |education|
       %h4= education[:education]
       %p= education[:institution]
@@ -24,4 +31,3 @@
       %p= education[:period]
       %p= education[:final_project]
       %p= education[:topic]
-      %p= education[:grade]
