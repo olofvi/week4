@@ -4,6 +4,13 @@
     %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
     %title Olof portfolio
     %link{:rel => "stylesheet"}>/
+    %script{src: "https://code.jquery.com/jquery-2.1.4.js"}
+    / Compiled and minified CSS
+    %link{href: "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"}
+    / Compiled and minified JavaScript
+    %script{src: "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"}
+    %script{src: "src/javascript/site.js"}
   %body
+    = partial 'partials/sidebar'
     = yield
     = partial 'partials/footer'
