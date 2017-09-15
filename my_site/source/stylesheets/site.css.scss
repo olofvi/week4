@@ -1,15 +1,12 @@
 @import 'materialize/materialize';
-@import 'custom';
 @import 'navbar';
 @import 'footer';
 
 body {
   background-color: #d2e1dd;
   color: $primary-color;
-  Font: $main_font;
   padding: 0vh 1rem;
   text-align: center;
-  $font-family-display: sans-serif;
 }
 
 a {

@@ -11,7 +11,17 @@
     / Compiled and minified JavaScript
     = javascript_include_tag 'https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js'
     = javascript_include_tag 'site'
+    / Global Site Tag (gtag.js) - Google Analytics
+    %script{:async => "", :src => "https://www.googletagmanager.com/gtag/js?id=UA-106541428-1"}
+    :javascript
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments)};
+      gtag('js', new Date());
+
+      gtag('config', 'UA-106541428-1');
+
   %body
     = partial 'partials/navbar'
+    -# = partial 'partials/parallax'
     = yield
     = partial 'partials/footer'
